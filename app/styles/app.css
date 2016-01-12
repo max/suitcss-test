@@ -1,0 +1,32 @@
+body {
+  font-family: 'Helvetica Neue';
+}
+
+.ReadButton {
+  background: #E5E5E6;
+  border-radius: 0.25em;
+  border: none;
+  font-size: 1em;
+  padding: 0.5em 0.75em;
+}
+
+.ReadButton--small {
+  font-size: 0.75em;
+}
+
+.Excerpt {
+  background: #F2F2F2;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+/* Adopts a child component */
+.Excerpt-button {
+  background: #4959DA;
+  font-size: 2em;
+}
+
+/* Wraps a child component */
+.Excerpt-wrapButton {
+  margin-top: 50px;
+}
